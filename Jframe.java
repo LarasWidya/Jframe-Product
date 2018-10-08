@@ -55,6 +55,8 @@ public class Jframe extends JFrame{
 	public static void main(String[] args) {
 		Jframe frame = new Jframe("Cari Product");
 		frame.setVisible(true);
+		frame.setLayout(null);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 	}
 
